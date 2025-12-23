@@ -6,8 +6,17 @@ INPUT_FILE = Path("input.txt")
 OUTPUT_FILE = Path("report.txt")
 
 def tokenize(text: str) -> list[str]:
-    # nur Buchstaben/Zahlen behalten, alles klein
-    return re.findall(r"[a-zA-Z0-9äöüÄÖÜß]+", text.lower())
+    tokens = re.findall(r"[a-zA-Z0-9äöüÄÖÜß]+", text.lower())
+
+    stopwords = {
+        "und", "oder", "für", "der", "die", "das", "ein", "eine", "einer",
+        "ich", "du", "wir", "ihr", "sie", "es",
+        "ist", "sind", "war", "waren", "sein",
+        "mit", "ohne", "zu", "im", "in", "am", "an", "auf", "von", "bei",
+        "dass", "wie", "was", "wenn", "weil", "aber", "auch", "nicht",
+    }
+
+    return [t for t in tokens if t not in stopwords]
 
 def main() -> None:
     if not INPUT_FILE.exists():
