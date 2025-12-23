@@ -1,0 +1,14 @@
+Datei: input.txt
+Wörter gesamt: 99
+
+Top 10 Wörter:
+für: 4
+und: 4
+protein: 3
+deine: 3
+die: 3
+dein: 2
+in: 2
+eine: 2
+mit: 2
+zu: 2
