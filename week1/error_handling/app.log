@@ -1,0 +1,15 @@
+2025-12-26 11:58:52,474 | INFO | Starte Filter: input=good.csv output=out.csv
+2025-12-26 11:58:52,478 | INFO | Fertig. Gefilterte Zeilen: 1
+2025-12-26 11:58:52,478 | INFO | Output gespeichert: /Users/sorinsas/Documents/career2026/week1/error_handling/out.csv
+2025-12-26 12:01:38,043 | INFO | Starte Filter: input=bad.csv output=out.csv
+2025-12-26 12:01:38,043 | INFO | Fertig. Gefilterte Zeilen: 0
+2025-12-26 12:01:38,043 | INFO | Output gespeichert: /Users/sorinsas/Documents/career2026/week1/error_handling/out.csv
+2025-12-26 12:13:55,891 | INFO | Starte Filter: input=good.csv output=out.csv
+2025-12-26 12:13:55,892 | INFO | Fertig. Gefilterte Zeilen: 1
+2025-12-26 12:13:55,892 | INFO | Output gespeichert: /Users/sorinsas/Documents/career2026/week1/error_handling/out.csv
+2025-12-26 12:14:08,224 | INFO | Starte Filter: input=good.csv output=out.csv
+2025-12-26 12:14:08,225 | INFO | Fertig. Gefilterte Zeilen: 1
+2025-12-26 12:14:08,225 | INFO | Output gespeichert: /Users/sorinsas/Documents/career2026/week1/error_handling/out.csv
+2025-12-26 12:16:58,954 | INFO | Starte Filter: input=good.csv output=out.csv
+2025-12-26 12:16:58,955 | INFO | Fertig. Gefilterte Zeilen: 1
+2025-12-26 12:16:58,955 | INFO | Output gespeichert: /Users/sorinsas/Documents/career2026/week1/error_handling/out.csv
