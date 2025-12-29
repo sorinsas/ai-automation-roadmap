@@ -9,14 +9,19 @@ def main() -> None:
     with urlopen(URL) as resp:
         data = json.loads(resp.read().decode("utf-8"))
 
-    # 3 Werte rausziehen
-    current_user_url = data.get("current_user_url")
-    emojis_url = data.get("emojis_url")
-    rate_limit_url = data.get("rate_limit_url")
+    # Werte aus /rate_limit rausziehen
+    rate = data.get("rate", {})
+    resources = data.get("resources", {})
 
-    print("current_user_url:", current_user_url)
-    print("emojis_url:", emojis_url)
-    print("rate_limit_url:", rate_limit_url)
+    core = resources.get("core", {})
+    search = resources.get("search", {})
+
+    print("RATE (gesamt) limit:", rate.get("limit"))
+    print("RATE (gesamt) remaining:", rate.get("remaining"))
+    print("RATE (gesamt) reset:", rate.get("reset"))
+
+    print("CORE remaining:", core.get("remaining"), "von", core.get("limit"))
+    print("SEARCH remaining:", search.get("remaining"), "von", search.get("limit"))
 
     OUTPUT.write_text(json.dumps(data, indent=2), encoding="utf-8")
     print(f"\nGespeichert: {OUTPUT.resolve()}")
