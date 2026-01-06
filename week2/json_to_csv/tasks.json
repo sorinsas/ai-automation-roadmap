@@ -1,0 +1,7 @@
+{
+  "tasks": [
+    {"title":"ROI-Report erstellen","owner":"Sorin","due_date":"Freitag","priority":"high"},
+    {"title":"Feedback geben","owner":"Claudia","due_date":null,"priority":"medium"},
+    {"title":"3 Kunden ansprechen","owner":null,"due_date":"nächste Woche","priority":"high"}
+  ]
+}
