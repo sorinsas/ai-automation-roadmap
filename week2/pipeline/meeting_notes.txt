@@ -1,0 +1,15 @@
+Wir haben entschieden:
+- Sorin macht bis Freitag einen ersten ROI-Report aus tasks.csv.
+- Claudia prüft die Texte und gibt Feedback.
+- Wir wollen nächste Woche 3 Kunden ansprechen.
+- Sorin erstellt am Mittwoch ein Demo-Video.
+
+Offene Fragen:
+- Welcher Stundensatz soll im Report stehen?
+- Soll das Tool auch DONE Aufgaben berücksichtigen?
+
+Tasks (mit Minuten-Schätzung pro Woche):
+- ROI-Report erstellen (90)
+- Feedback geben (30)
+- 3 Kunden ansprechen (60)
+- Demo-Video erstellen (200)
